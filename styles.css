@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Libre Franklin",sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.ping{
+    text-align: center;
+    margin-top: 30px;
+}
+.head{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 300;
+    color: hsl(0, 0%, 59%);
+}
+.head span{
+    font-weight: bold;
+    color: hsl(209, 33%, 12%);
+
+}
+.sub{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: hsl(209, 33%, 12%);
+}
+.input{
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+.input input{
+    width: 25vw;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid hsl(223, 100%, 88%);
+    margin-right: 15px;
+}
+.input button{
+    padding: 15px 50px 15px 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    background:  hsl(223, 87%, 63%);
+    color: #fff;
+    box-shadow: 0.9px 0.2em 10px hsl(223, 100%, 88%);
+
+}
+.input button:hover{
+    cursor: pointer;
+}
+.error{
+    color: rgb(226, 40, 40);
+    margin-right: 270px;
+    margin-top: 7px;
+    font-size: 14px;
+    font-style: italic;
+    /* display: none; */
+}
+.illustration{
+    margin: 20px;
+    text-align: center;
+
+}
+.image{
+    width: 650px;
+    height: 400px;
+}
+.copy{
+    text-align: center;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.facebook, .twitter, .instagram{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid hsl(223, 100%, 88%);
+    text-align: center;
+    margin-left: 10px;
+}
+.fa{
+    padding-top: 6px;
+    color: hsl(223, 87%, 63%);
+}
+.copy{
+    color: hsl(0, 0%, 59%);
+    margin: 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+.error-desk{
+    display: none;
+    color: hsl(354, 100%, 66%);
+    width: 400px;
+    height: 18px;
+    font-size: 15px;
+    font-style: italic;
+    margin-left: 320px;
+    margin-top: 10px;
+}
+.error-mob{
+    display: none;
+    color: hsl(354, 100%, 66%);
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+@media(max-width: 375px){
+    .illustration{
+        width: 100%;
+        margin: 0;
+    }
+    .image{
+        width: 350px;
+        height: 200px;
+        margin: 0 0 80px 0;
+    }
+    .head{
+        font-size: 25px;
+    }
+    .sub{
+        font-size: 14px;
+    }
+    .input input{
+        margin: 0;
+        width: 300px;
+    }
+    .input button{
+        margin: 15px 0 0 0;
+        width: 330px;
+    }
+}
