@@ -26,7 +26,7 @@ Users should be able to:
 
 ![](./Screenshot.png)
 
-- Solution URL: [github](https://your-solution-url.com)
+- Solution URL: [github](https://github.com/nooruddin-rahmani/ping-commig-soon)
 - Live Site URL: [netlify](https://ping-comming-soon.netlify.app/)
 
 ## My process
